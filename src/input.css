@@ -26,7 +26,7 @@ body {
 
 
 
-/* .rotate-animation {
+.rotate-animation {
   animation: rotating 10s infinite;
   transition: ease-in-out;
 }
@@ -40,7 +40,7 @@ body {
 
     transform: rotate(360deg);
   }
-} */
+}
 
 @media screen and (max-width: 768px) {
   body {
