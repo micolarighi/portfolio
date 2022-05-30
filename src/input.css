@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -12,8 +11,7 @@
 
 
 body {
-  background-image: #0c0216;
-  color: white;
+  background-image: #0d0418;
   padding: 0 56px;
 }
 
@@ -29,7 +27,7 @@ body {
 
 
 .rotate-animation {
-  animation: rotating 10s linear infinite;
+  animation: rotating 10s infinite;
   transition: ease-in-out;
 }
 
