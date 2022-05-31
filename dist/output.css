@@ -589,6 +589,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: -20;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
+.z-auto {
+  z-index: auto;
+}
+
 .float-right {
   float: right;
 }
@@ -673,6 +681,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .box-border {
@@ -1585,6 +1597,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .rounded-b-lg {
@@ -2705,6 +2721,10 @@ body {
 
   .lg\:mt-9 {
     margin-top: 2.25rem;
+  }
+
+  .lg\:mt-1 {
+    margin-top: 0.25rem;
   }
 
   .lg\:w-2\/3 {
