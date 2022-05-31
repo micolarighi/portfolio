@@ -35,13 +35,13 @@
 
   <!-- component -->
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-  <section>
-    <div class="w-full outline-white font-outline rounded-b-lg">
+  <section class="">
+    <div class="w-full font-outline rounded-b-lg z-50 fixed backdrop-blur-xl  left-0 mb-10 shadow-gray-200 shadow-md">
       <div x-data="{ open: false }"
-        class="flex flex-col max-w-screen-xl px-4 mx-4 md:items-center md:justify-center md:flex-row md:px-16 lg:px-6">
-        <div class="py-6 flex flex-row items-center justify-between">
+        class="flex flex-col max-w-screen-2xl px-4 mx-4 md:items-center md:justify-center md:flex-row md:px-16 lg:px-16 lg:justify-center ">
+        <div class="py-3 flex flex-row items-center justify-between ">
           <a href="#"
-            class="text-lg font-semibold tracking-widest uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">MADFOLIO</a>
+            class="text-lg font-semibold tracking-widest uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline bg-white text-black px-4 py-1">MADFOLIO</a>
           <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
             <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
               <path x-show="!open" fill-rule="evenodd"
@@ -54,14 +54,14 @@
           </button>
         </div>
         <nav :class="{'flex': open, 'hidden': !open}"
-          class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
-          <a class="px-4 py-2 mt-2 text-sm font-semibold text-black bg-gray-200 rounded-lg md:mt-0 hover:text-black focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+          class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row lg:justify-end">
+          <a class="px-4 py-2 mt-2 text-sm font-semibold text-white  rounded-lg md:mt-0 hover:text-black focus:text-gray-900 hover:bg-gray-200 focus:outline-none focus:shadow-outline"
             href="#">Home</a>
-          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-black focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-black hover:bg-gray-200  focus:outline-none focus:shadow-outline"
             href="#portfolio">Portfolio</a>
-          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-black focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-black  hover:bg-gray-200 focus:outline-none focus:shadow-outline"
             href="#about">About</a>
-          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-black focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+          <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-black hover:bg-gray-200 focus:outline-none focus:shadow-outline"
             href="#contact">Contact</a>
       </div>
       </nav>
@@ -70,7 +70,7 @@
   </section>
 
   <!-- Hero Section -->
-  <section id="home" class="pt-16 pb-16" lg>
+  <section id="home" class="pt-28 pb-16" lg>
     <div class="container">
       <div class="flex flex-wrap">
         <div class="w-full self-center px-4 md:w-1/2 lg:w-2/3">
