@@ -26,7 +26,6 @@ function NavTop() {
             <div className="menu-list">
               <NavLink to="/" onClick={toogleClose}>Home</NavLink>
               <NavLink to="/about" onClick={toogleClose}>About</NavLink>
-              <NavLink to="/skills" onClick={toogleClose}>Skills</NavLink>
               <NavLink to="/projects" onClick={toogleClose}>Projects</NavLink>
               <NavLink to="/contact" onClick={toogleClose}>Contact</NavLink>
             </div>
@@ -39,7 +38,7 @@ function NavTop() {
   return (
     <>
       <Navbar className="navtop py-3" expand="lg">
-        <Container fluid className="px-4">
+        <Container className="px-4 nav-container">
           <Navbar.Brand className="navtop-brand">
             <Link to="/">Micola<i id="normal">Arighi</i>.</Link>
           </Navbar.Brand>
@@ -47,7 +46,6 @@ function NavTop() {
           <Nav className="navtop-list ms-auto">
             <Nav.Link className="pe-3"><NavLink to="/" activeClassName="active">Home</NavLink></Nav.Link>
             <Nav.Link className="pe-3"><NavLink to="/about" activeClassName="active">About</NavLink></Nav.Link>
-            <Nav.Link className="pe-3"><NavLink to="/skills" activeClassName="active">Skills</NavLink></Nav.Link>
             <Nav.Link className="pe-3"><NavLink to="/projects" activeClassName="active">Projects</NavLink></Nav.Link>
             <Nav.Link><NavLink to="/contact" activeClassName="active">Contact</NavLink></Nav.Link>
           </Nav>

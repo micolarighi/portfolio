@@ -1,48 +1,50 @@
 .side-vertical {
-    display: flex;
-    justify-content: space-between;
-    height: 550px;
-    padding: 14px 20px;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
+  margin-top: 6%;
+  display: flex;
+  justify-content: space-between;
+  height: 550px;
+  padding: 14px 20px;
+  position: fixed;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
 
 .side-title {
-    font-family: 'Manrope', sans-serif;
-    font-weight: bold;
-    color: #aeaeae;
+  font-family: 'Manrope', sans-serif;
+  font-weight: bold;
+  color: #aeaeae;
 }
 
 .side-date {
-    font-family: 'Roboto Mono', monospace;
-    color: #fff;
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
 }
 
 .side-number {
-    font-family: 'Roboto Mono', monospace;
-    color: #fff;
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
 }
 
 .disabled-color {
-    color: #aeaeae;
+  color: #aeaeae;
 }
 
 a.arrow {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 a.arrow:hover {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .side-title,
 .side-date,
 .side-number {
-    cursor: default;
+  cursor: default;
 }
 
 @media (max-width: 992px) {
-    .side-vertical {
-        display: none !important;
-    }
+  .side-vertical {
+    display: none !important;
+  }
 }

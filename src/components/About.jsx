@@ -2,17 +2,7 @@ import Certificate1 from "../assets/img/Certificate1.png";
 import Certificate2 from "../assets/img/Certificate2.png";
 import Certificate3 from "../assets/img/Certificate3.png";
 import Certificate4 from "../assets/img/Certificate4.png";
-import Certificate5 from "../assets/img/Certificate5.png";
-import Certificate6 from "../assets/img/Certificate6.png";
-import Certificate7 from "../assets/img/Certificate7.png";
-import Certificate8 from "../assets/img/Certificate8.png";
-import Certificate9 from "../assets/img/Certificate9.png";
-import Certificate10 from "../assets/img/Certificate10.png";
-import Certificate11 from "../assets/img/Certificate11.png";
-import Certificate12 from "../assets/img/Certificate12.png";
-import Certificate13 from "../assets/img/Certificate13.png";
-import Certificate14 from "../assets/img/Certificate14.png";
-import Certificate15 from "../assets/img/Certificate15.png";
+
 import FsLightbox from 'fslightbox-react';
 import Helmet from "react-helmet";
 import { Container } from "react-bootstrap";
@@ -20,115 +10,165 @@ import { useState } from "react";
 import "./About.css";
 
 function About() {
-    const [lightboxController, setLightboxController] = useState({
-        toggler: false,
-        slide: 1
+  const [lightboxController, setLightboxController] = useState({
+    toggler: false,
+    slide: 1
+  });
+
+  function openLightboxOnSlide(number) {
+    setLightboxController({
+      toggler: !lightboxController.toggler,
+      slide: number
     });
+  }
 
-    function openLightboxOnSlide(number) {
-        setLightboxController({
-            toggler: !lightboxController.toggler,
-            slide: number
-        });
-    }
+  return (
+    <>
+      <Helmet>
+        <title>Micola Arighi - About</title>
+      </Helmet>
+      <FsLightbox
+        toggler={lightboxController.toggler}
+        sources={[
+          Certificate1,
+          Certificate2,
+          Certificate3,
+          Certificate4,
 
-    return (
-        <>
-            <Helmet>
-                <title>Micola Arighi - About</title>
-            </Helmet>
-            <FsLightbox
-                toggler={lightboxController.toggler}
-                sources={[
-                    Certificate1,
-                    Certificate2,
-                    Certificate3,
-                    Certificate4,
-                    Certificate5,
-                    Certificate6,
-                    Certificate7,
-                    Certificate8,
-                    Certificate9,
-                    Certificate10,
-                    Certificate11,
-                    Certificate12,
-                    Certificate13,
-                    Certificate14,
-                    Certificate15,
-                ]}
-                slide={lightboxController.slide}
+        ]}
+        slide={lightboxController.slide}
 
-            />
-            <Container fluid className="about-wrapper">
-                <div className="about-left animate__animated animate__zoomIn">
-                    <h3>About</h3>
-                    <h4>───&nbsp;&nbsp;Page <strong>02</strong></h4>
+      />
+      <Container fluid className="about-wrapper">
+        <div className="about-left animate__animated animate__zoomIn">
+          <h3>About</h3>
+          <h4>───&nbsp;&nbsp;Page <strong>02</strong></h4>
+          <div className="row">
+            <p>A <strong>Computer Enthusiast.</strong> Everything about computer make me excited, because unlike any other things in this world, computer is probably the only one thing that I have no idea how it actually work, since I can't see how it works physically.</p>
+          </div>
+        </div>
+        <div className="about-right mt-3 animate__animated animate__fadeIn animate__slower ">
+          <div className="row">
+            <div className="col-2">
+              <h4 className="bg-secondary rounded">01</h4>
+            </div>
+            <div className="col">
+              <h5 className="text-secondary">What's your name?</h5>
+              <h3>Micola Arighi Dwitya</h3>
+            </div>
+          </div>
+          <hr />
+          <div className="row mt-4">
+            <div className="col-2">
+              <h4 className="bg-secondary rounded">02</h4>
+            </div>
+            <div className="col">
+              <h5 className="text-secondary">What's your expertise?</h5>
+              <h3 className="">I can do all this technology</h3>
+
+            </div>
+            <div className="col">
+
+              <div className="row px-5">
+                <div className="row my-4 animate__animated animate__flipInX animate_slow">
+                  <div className="col">
+                    <i class="devicon-html5-plain colored" title="HTML"></i>
+                    <i class="devicon-css3-plain colored" title="CSS"></i>
+                    <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+                    <i class="devicon-react-original colored" title="React JS"></i>
+                  </div>
                 </div>
-                <div className="about-right animate__animated animate__fadeIn animate__slower py-3">
-                    <p>A <strong>Computer Enthusiast.</strong> Everything about computer make me excited, because unlike any other things in this world, computer is probably the only one thing that I have no idea how it actually work, since I can't see how it works physically.</p>
-                    <h4 className="mt-5">Certificates</h4>
-                    <span>─────</span>
-                    <div className="certificates-wrapper">
-                        <div className="row my-2">
-                            <div className="col certificates-ratio">
-                                <img className="shadow" loading="lazy" src={Certificate1} alt="Certificate 1" onClick={() => openLightboxOnSlide(1)} />
-                            </div>
-                            <div className="col certificates-ratio gap-image">
-                                <img className="shadow" loading="lazy" src={Certificate2} alt="Certificate 2" onClick={() => openLightboxOnSlide(2)} />
-                            </div>
-                            <div className="col certificates-ratio gap-image">
-                                <img className="shadow" loading="lazy" src={Certificate3} alt="Certificate 3" onClick={() => openLightboxOnSlide(3)} />
-                            </div>
-                        </div>
-                        <div className="row my-4">
-                            <div className="col certificates-ratio">
-                                <img className="shadow" loading="lazy" src={Certificate4} alt="Certificate 4" onClick={() => openLightboxOnSlide(4)} />
-                            </div>
-                            <div className="col certificates-ratio gap-image">
-                                <img className="shadow" loading="lazy" src={Certificate5} alt="Certificate 5" onClick={() => openLightboxOnSlide(5)} />
-                            </div>
-                            <div className="col certificates-ratio gap-image">
-                                <img className="shadow" loading="lazy" src={Certificate6} alt="Certificate 6" onClick={() => openLightboxOnSlide(6)} />
-                            </div>
-                        </div>
-                        <div className="row my-4">
-                            <div className="col certificates-ratio">
-                                <img className="shadow" loading="lazy" src={Certificate7} alt="Certificate 7" onClick={() => openLightboxOnSlide(7)} />
-                            </div>
-                            <div className="col certificates-ratio gap-image">
-                                <img className="shadow" loading="lazy" src={Certificate8} alt="Certificate 8" onClick={() => openLightboxOnSlide(8)} />
-                            </div>
-                            <div className="col certificates-ratio gap-image">
-                                <img className="shadow" loading="lazy" src={Certificate9} alt="Certificate 9" onClick={() => openLightboxOnSlide(9)} />
-                            </div>
-                        </div>
-                        <div className="row my-4">
-                            <div className="col certificates-ratio">
-                                <img className="shadow" loading="lazy" src={Certificate10} alt="Certificate 10" onClick={() => openLightboxOnSlide(10)} />
-                            </div>
-                            <div className="col certificates-ratio gap-image">
-                                <img className="shadow" loading="lazy" src={Certificate11} alt="Certificate 11" onClick={() => openLightboxOnSlide(11)} />
-                            </div>
-                            <div className="col certificates-ratio gap-image">
-                                <img className="shadow" loading="lazy" src={Certificate12} alt="Certificate 12" onClick={() => openLightboxOnSlide(12)} />
-                            </div>
-                        </div>
-                        <div className="row my-4">
-                            <div className="col certificates-ratio">
-                                <img className="shadow" loading="lazy" src={Certificate13} alt="Certificate 13" onClick={() => openLightboxOnSlide(13)} />
-                            </div>
-                            <div className="col certificates-ratio gap-image">
-                                <img className="shadow" loading="lazy" src={Certificate14} alt="Certificate 14" onClick={() => openLightboxOnSlide(14)} />
-                            </div>
-                            <div className="col certificates-ratio gap-image">
-                                <img className="shadow" loading="lazy" src={Certificate15} alt="Certificate 15" onClick={() => openLightboxOnSlide(15)} />
-                            </div>
-                        </div>
-                    </div>
+                <div className="row my-4 animate__animated animate__flipInX animate_slow">
+                  <div className="col">
+                    <i class="devicon-npm-original-wordmark colored" title="NPM"></i>
+                    <i class="devicon-git-plain colored" title="Git"></i>
+                    <i class="devicon-github-original colored text-white" title="GitHub"></i>
+                    <i class="devicon-visualstudio-plain colored" title="Visual Studio Code"></i>
+                  </div>
                 </div>
-            </Container>
-        </>
-    )
+                <div className="row my-4 animate__animated animate__flipInX animate_slow">
+                  <div className="col">
+                    <i class="devicon-bootstrap-plain colored" title="Bootstrap"></i>
+                    <i class="devicon-nodejs-plain colored" title="Node JS"></i>
+                    <i class="devicon-express-original colored text-light" title="Express JS"></i>
+                    <i class="devicon-mongodb-plain colored" title="Mongo DB"></i>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div className="row mt-4">
+            <div className="col-2">
+              <h4 className="bg-secondary rounded">03</h4>
+            </div>
+            <div className="col">
+              <h5 className="text-secondary">Do you have any certification?</h5>
+              <h3 className="">Yes, here you go.</h3>
+
+            </div>
+            <div className="certificates-wrapper mt-3">
+              <div className="row my-2">
+                <div className="col certificates-ratio">
+                  <img className="shadow" loading="lazy" src={Certificate1} alt="Certificate 1" onClick={() => openLightboxOnSlide(1)} />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img className="shadow" loading="lazy" src={Certificate2} alt="Certificate 2" onClick={() => openLightboxOnSlide(2)} />
+                </div>
+              </div>
+              <div className="row my-4">
+                <div className="col certificates-ratio">
+                  <img className="shadow" loading="lazy" src={Certificate4} alt="Certificate 4" onClick={() => openLightboxOnSlide(4)} />
+                </div>
+                <div className="col certificates-ratio gap-image">
+                  <img className="shadow" loading="lazy" src={Certificate3} alt="Certificate 3" onClick={() => openLightboxOnSlide(3)} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div className="row mt-4">
+            <div className="col-2">
+              <h4 className="bg-secondary rounded">04</h4>
+            </div>
+            <div className="col">
+              <h5 className="text-secondary">How's your journey</h5>
+              <h3 className="">I started coding since <span className="badge rounded-pill bg-secondary">2018</span>and i've been trying lot of things that is related to computer. Such as Graphic Design, 3D Modeling, Music Composing, Writing Novel, Video Editing, etc. But coding hits different. It's like a love at first sight.</h3>
+            </div>
+          </div>
+
+          <hr />
+          <div className="row mt-4">
+
+            <div className="col-2">
+              <h4 className="bg-secondary rounded">05</h4>
+            </div>
+            <div className="col">
+              <h5 className="text-secondary">What's your experience?</h5>
+              <ol class="list-group ">
+                <li class="list-group-item d-flex justify-content-between align-items-start bg-secondary">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Hello Koding</div>
+                    Co-Founder
+                  </div>
+                  <span class="badge fs-5 bg-black rounded-pill">1 Year</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start bg-secondary">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ed.VERSITY</div>
+                    Head I.T
+                  </div>
+                  <span class="badge bg-primary rounded-pill">14</span>
+                </li>
+              </ol>
+
+            </div>
+          </div>
+        </div>
+      </Container >
+    </>
+  )
 }
 
 export default About;
