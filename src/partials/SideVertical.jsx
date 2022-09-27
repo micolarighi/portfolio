@@ -38,11 +38,8 @@ function SideVertical(props) {
     case "/about":
       directUp = "/";
       break;
-    case "/skills":
-      directUp = "/about";
-      break;
     case "/projects":
-      directUp = "/skills";
+      directUp = "/about";
       break;
     case "/contact":
       directUp = "/projects";
@@ -56,11 +53,9 @@ function SideVertical(props) {
       directDown = "/about";
       break;
     case "/about":
-      directDown = "/skills";
-      break;
-    case "/skills":
       directDown = "/projects";
       break;
+
     case "/projects":
       directDown = "/contact";
       break;
@@ -78,7 +73,7 @@ function SideVertical(props) {
           <p className="side-date">{date}</p>
         </div>
         <div className="lower-side d-flex">
-          <p className="side-number">{numberPage} <span className="disabled-color">/ 05</span></p>
+          <p className="side-number">{numberPage} <span className="disabled-color">/ 04</span></p>
           <Link to={directUp} className="d-flex align-items-center pb-3 arrow">
             <AiOutlineArrowUp />
           </Link>

@@ -44,7 +44,7 @@ function About() {
           <h3>About</h3>
           <h4>───&nbsp;&nbsp;Page <strong>02</strong></h4>
           <div className="row">
-            <p>A <strong>Computer Enthusiast.</strong> Everything about computer make me excited, because unlike any other things in this world, computer is probably the only one thing that I have no idea how it actually work, since I can't see how it works physically.</p>
+            <p className="fs-4">A <strong className="rounded px-2 bg-secondary">Computer Enthusiast.</strong> <br /> <hr />Every computer related make me excited, because unlike any other things in this world computer is probably the only one thing that I have no idea how it actually work, since I can't see how it works physically.</p>
           </div>
         </div>
         <div className="about-right mt-3 animate__animated animate__fadeIn animate__slower ">
@@ -65,7 +65,6 @@ function About() {
             <div className="col">
               <h5 className="text-secondary">What's your expertise?</h5>
               <h3 className="">I can do all this technology</h3>
-
             </div>
             <div className="col">
 
@@ -92,7 +91,6 @@ function About() {
                     <i class="devicon-nodejs-plain colored" title="Node JS"></i>
                     <i class="devicon-express-original colored text-light" title="Express JS"></i>
                     <i class="devicon-mongodb-plain colored" title="Mongo DB"></i>
-
                   </div>
                 </div>
               </div>

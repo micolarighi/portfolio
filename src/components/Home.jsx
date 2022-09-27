@@ -95,6 +95,23 @@ function Home() {
               </div>
             </div>
           </div>
+          <hr className="mt-5" />
+          <div className="row mt-3">
+            <div className="row">
+              <h5 className="card-title">Explore</h5>
+              <p className="card-text text-secondary">Explore more about me through this.</p>
+            </div>
+          </div>
+          <div className="row mt-4">
+            <div className="youtube-wrapper border rounded px-4 py-3">
+              <h1><AiFillYoutube /></h1>
+              <div className="ms-5 mt-2">
+                <h5>Youtube</h5>
+                <p className="text-secondary">Programming Tips & Trick and Tutorial</p>
+                <a target={'_black'} href="https://www.youtube.com/channel/UCV4p9jOV1IzGim2GbexAFSQ" className="btn btn-dark w-100"><AiFillRightSquare />&nbsp;Open Site &nbsp;</a>
+              </div>
+            </div>
+          </div>
 
         </div>
       </Container>
