@@ -19,24 +19,24 @@ function Skills() {
             <div className="row px-5">
               <div className="row my-4 animate__animated animate__flipInX animate_slow">
                 <div className="col">
-                  <i class="devicon-html5-plain colored" title="HTML"></i>
-                  <i class="devicon-css3-plain colored" title="CSS"></i>
-                  <i class="devicon-javascript-plain colored" title="JavaScript"></i>
-                  <i class="devicon-php-plain colored" title="PHP"></i>
+                  <i className="devicon-html5-plain colored" title="HTML"></i>
+                  <i className="devicon-css3-plain colored" title="CSS"></i>
+                  <i className="devicon-javascript-plain colored" title="JavaScript"></i>
+                  <i className="devicon-php-plain colored" title="PHP"></i>
                 </div>
               </div>
               <div className="row my-4 animate__animated animate__flipInX animate_slow">
                 <div className="col">
-                  <i class="devicon-npm-original-wordmark colored" title="NPM"></i>
-                  <i class="devicon-git-plain colored" title="Git"></i>
-                  <i class="devicon-github-original colored text-white" title="GitHub"></i>
-                  <i class="devicon-visualstudio-plain colored" title="Visual Studio Code"></i>
+                  <i className="devicon-npm-original-wordmark colored" title="NPM"></i>
+                  <i className="devicon-git-plain colored" title="Git"></i>
+                  <i className="devicon-github-original colored text-white" title="GitHub"></i>
+                  <i className="devicon-visualstudio-plain colored" title="Visual Studio Code"></i>
                 </div>
               </div>
               <div className="row my-4 animate__animated animate__flipInX animate_slow">
                 <div className="col">
-                  <i class="devicon-bootstrap-plain colored" title="Bootstrap"></i>
-                  <i class="devicon-react-original colored" title="React JS"></i>
+                  <i className="devicon-bootstrap-plain colored" title="Bootstrap"></i>
+                  <i className="devicon-react-original colored" title="React JS"></i>
                 </div>
               </div>
             </div>

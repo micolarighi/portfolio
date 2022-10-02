@@ -1,6 +1,6 @@
 .project-wrapper {
   display: flex;
-  justify-content: space-between;
+  padding: 0 7% !important;
   margin-top: 10% !important;
 }
 
@@ -17,8 +17,9 @@
 }
 
 .project-left {
-  text-align: center;
-  width: 300px;
+  position: fixed;
+  width: 35%;
+  color: #fff;
 }
 
 .project-left h3,
@@ -29,7 +30,7 @@
 .project-left h3 {
   font-family: 'Archivo', sans-serif;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 100px;
   margin: 0px;
 }
 
@@ -39,11 +40,9 @@
 }
 
 .project-right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 750px;
+  width: 70%;
+  text-align: start;
+  margin-left: 40%;
 }
 
 
@@ -62,7 +61,7 @@
 
 .project-card img {
   width: 300px !important;
-  padding: 16px 16px 12px 16px;
+  padding: 16px 20px 12px 20px;
   border-radius: .3rem;
 }
 
@@ -130,6 +129,15 @@ span#tech-stack {
 
 
 @media (max-width: 992px) {
+  .project-wrapper {
+    margin-top: 30% !important;
+    text-align: center;
+    display: block;
+    align-items: center;
+    height: 50vh;
+    padding: 0;
+  }
+
   .projects-container {
     margin-top: 50% !important;
   }
@@ -146,8 +154,27 @@ span#tech-stack {
     font-size: 16px;
   }
 
+  .project-left h3{
+    font-size: 40px;
+  }
+
+  project-left h4 {
+    font-size: 16px;
+  }
+
   .project-card {
     width: 100%;
+  }
+
+  .project-left {
+    width: 100%;
+    color: white;
+    position: relative;
+  }
+
+  .project-right {
+    width: 100%;
+    margin-left: 0;
   }
 }
 
