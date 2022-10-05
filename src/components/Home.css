@@ -23,15 +23,15 @@
 }
 
 .home-left h2 {
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
   font-weight: 800;
-  font-size: 75px;
-  line-height: 90px;
+  font-size: 100px;
+  line-height: 110px;
   cursor: default;
 }
 
 .home-left h3 {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 200;
   font-size: 30px;
   cursor: default;
@@ -42,7 +42,6 @@
   -webkit-text-stroke-width: 1px;
 }
 
-
 .btn-download {
   display: flex;
   padding: 12px 8px;
@@ -50,7 +49,7 @@
   border-radius: 0px;
   box-shadow: 8px 8px var(--third-color);
   text-decoration: none;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 600;
   color: white;
   background-color: gray;
@@ -73,7 +72,6 @@
 }
 
 @media (max-width: 992px) {
-
   .home-wrapper {
     margin: 100px 0 80px 0 !important;
     display: block;
@@ -103,12 +101,9 @@
     margin-left: 0;
   }
 
-
   a.btn-download {
     margin: auto;
   }
-
-
 }
 
 @media (max-width: 576px) {
