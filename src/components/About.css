@@ -26,26 +26,26 @@
 }
 
 .about-left h3 {
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
   font-weight: 800;
   font-size: 100px;
   margin: 0px;
 }
 
 .about-left h4 {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
 }
 
 .about-right p {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   margin-bottom: 24px;
   cursor: default;
 }
 
 .about-right h4 {
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
   font-weight: 700;
   line-height: 12px;
   margin: 0;
@@ -61,10 +61,9 @@
 
 .certificates-ratio img {
   width: 285px;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   cursor: pointer;
 }
-
 
 @media (max-width: 992px) {
   .about-wrapper {
@@ -108,7 +107,6 @@
   .certificates-ratio img {
     width: 140px;
   }
-
 }
 
 @media (max-width: 576px) {

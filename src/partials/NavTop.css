@@ -1,5 +1,5 @@
 .navtop {
-  background-color: rgba(22, 22, 22, 0.800);
+  background-color: rgba(22, 22, 22, 0.8);
   position: fixed !important;
   margin: 0 5%;
   z-index: 99;
@@ -9,7 +9,7 @@
 }
 
 .navtop-brand a {
-  font-family: 'Source Serif Pro', serif;
+  font-family: "Source Serif Pro", serif;
   font-size: 28px !important;
   font-weight: 600;
   color: #fff;
@@ -26,10 +26,9 @@ i#normal {
 }
 
 .navtop-list a {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-
 }
 
 .active {
@@ -48,17 +47,19 @@ i#normal {
   border: none;
   font-size: 20px;
   background-color: transparent;
+  color: black;
 }
 
 .menu {
   display: none;
-  position: absolute;
+  position: fixed;
   background: var(--third-color);
-  top: 0px;
   right: 0px;
-  bottom: 0px;
   left: 0px;
   z-index: 9999999;
+  border-radius: 20px;
+  margin: 20px;
+  outline: solid 2px white;
 }
 
 .menu-close {
@@ -77,28 +78,25 @@ i#normal {
   align-items: center;
   text-decoration: none;
   color: #fff;
-  font-family: 'Archivo', sans-serif;
-  font-weight: 600;
-  font-size: 35px;
-  margin: 40px 0 40px 0;
-  transition: .3s;
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 20px 0 20px 0;
+  transition: 0.3s;
 }
 
 .menu-list a.active {
   color: var(--first-color) !important;
-  font-style: italic;
-  text-decoration: line-through;
+  font-style: bold;
   border-bottom: none;
 }
 
 .menu-list a:hover {
-  text-decoration: line-through;
   font-style: italic;
   color: var(--second-color);
 }
 
 @media (max-width: 992px) {
-
   .navtop {
     margin-top: 4%;
   }
