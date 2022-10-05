@@ -22,7 +22,7 @@ function Projects() {
           <div className="row">
             <div className="col-12 col-md-12 col-lg-12 project-col">
               <div className="project-card px-2 py-4 row">
-                <div className="col-6">
+                <div className="col-5">
                   <img src={Project1} alt="Project 1" loading="lazy" />
                 </div>
                 <div className="col">
@@ -32,7 +32,7 @@ function Projects() {
                     <p>A Simple ToDo List App to list what you need to do. Created using one of the most popular Javascript framework, React JS. It also uses Redux for state management and Framer Motion for animations. All the list will be stored to the local storage, so you can access them anytime.</p>
                     <a className="btn-website" href="https://midolist.netlify.app/" target="_blank" rel="noreferrer"><AiOutlineLink className="project-icon" />&nbsp;&nbsp;Website</a>
                     <a className="btn-github" href="https://github.com/micolarighi/mido-app" target="_blank" rel="noreferrer"><AiFillGithub className="project-icon" />&nbsp;&nbsp;GitHub</a>
-                    <div className="d-block mt-2">
+                    <div className=" mt-2">
                       <span id="tech-stack">React</span>
                       <span id="tech-stack">Framer Motion</span>
                       <span id="tech-stack">Redux</span>
@@ -43,7 +43,7 @@ function Projects() {
             </div>
             <div className="col-12 col-md-12 col-lg-12 project-col mt-3 ">
               <div className="project-card px-2 py-4 row">
-                <div className="col-6">
+                <div className="col-5">
                   <img src={Project2} alt="Project 1" loading="lazy" />
                 </div>
                 <div className="col">
@@ -53,7 +53,7 @@ function Projects() {
                     <p>A Web App that shows the latest updates on the COVID-19 pandemic. It uses the latest data from the open API.</p>
                     <a className="btn-website" href="https://midolist.netlify.app/" target="_blank" rel="noreferrer"><AiOutlineLink className="project-icon" />&nbsp;&nbsp;Website</a>
                     <a className="btn-github" href="https://github.com/micolarighi/mido-app" target="_blank" rel="noreferrer"><AiFillGithub className="project-icon" />&nbsp;&nbsp;GitHub</a>
-                    <div className="d-block mt-3">
+                    <div className=" mt-3">
                       <span id="tech-stack">React</span>
                       <span id="tech-stack">Open API</span>
                       <span id="tech-stack">Back-end</span>
@@ -64,7 +64,7 @@ function Projects() {
             </div>
             <div className="col-12 col-md-12 col-lg-12 project-col mt-3 ">
               <div className="project-card px-2 py-4 row">
-                <div className="col-6">
+                <div className="col-5">
                   <img src={Project3} alt="Project 1" loading="lazy" />
                 </div>
                 <div className="col">
@@ -74,7 +74,7 @@ function Projects() {
                     <p>A Simple Matrix Calculator created using React JS.</p>
                     <a className="btn-website" href="https://micolarighi-matrixcalcalculator.vercel.app/" target="_blank" rel="noreferrer"><AiOutlineLink className="project-icon" />&nbsp;&nbsp;Website</a>
                     <a className="btn-github" href="https://github.com/micolarighi/micovid-19" target="_blank" rel="noreferrer"><AiFillGithub className="project-icon" />&nbsp;&nbsp;GitHub</a>
-                    <div className="d-block mt-3">
+                    <div className=" mt-3">
                       <span id="tech-stack">React</span>
                       <span id="tech-stack">Open API</span>
                       <span id="tech-stack">Back-end</span>

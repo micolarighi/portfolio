@@ -20,6 +20,7 @@
   position: fixed;
   width: 35%;
   color: #fff;
+  text-align: center;
 }
 
 .project-left h3,
@@ -30,7 +31,7 @@
 .project-left h3 {
   font-family: 'Archivo', sans-serif;
   font-weight: 800;
-  font-size: 100px;
+  font-size: 80px;
   margin: 0px;
 }
 
@@ -60,9 +61,10 @@
 }
 
 .project-card img {
-  width: 300px !important;
+  width: 250px !important;
   padding: 16px 20px 12px 20px;
   border-radius: .3rem;
+  outline: solid 1px white;
 }
 
 .project-card .project-content {
@@ -111,7 +113,6 @@ a.btn-github {
 }
 
 .tech-stack-wrapper {
-  height: auto;
   margin-top: 16px;
 }
 
