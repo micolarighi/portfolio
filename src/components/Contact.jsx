@@ -28,12 +28,22 @@ function Contact() {
       <Helmet>
         <title>Micola Arighi - Contact</title>
       </Helmet>
-      <Container fluid className="contact-wrapper px-5">
-        <div className="contact-left animate__animated animate__zoomIn">
-          <h3>Contact</h3>
+      <Container fluid className="contact-wrapper">
+        <div className="contact-left text-start animate__animated animate__zoomIn">
+        <h3>Contact</h3>
           <h4>
             ───&nbsp;&nbsp;Page <strong>04</strong>
           </h4>
+          <div className="row">
+            <p className="fs-4">
+              A{" "}
+              <strong className="rounded px-2 bg-secondary">
+                Computer Enthusiast.
+              </strong>{" "}
+              <br /> <hr />
+              Interested to working with me? Let's get in.
+            </p>
+          </div>
         </div>
         <div className="contact-right">
           <div className="contact-container">
@@ -46,7 +56,7 @@ function Contact() {
                   </h3>
                   <p>micola.arighi.dwitya@gmail.com</p>
                   <CopyToClipboard text="micola.arighi.dwitya@gmail.com">
-                    <button className="btn-copy" onClick={actionCopy}>
+                    <button className="btn-copy text-white" onClick={actionCopy}>
                       {alreadyCopy}&nbsp;&nbsp;
                       <FiCopy />
                     </button>
@@ -77,7 +87,7 @@ function Contact() {
                     <AiFillGithub />
                     &nbsp;&nbsp;GitHub
                   </h3>
-                  <p>micolargihi</p>
+                  <p>micolarighi</p>
                   <a
                     href="https://github.com/micolarighi"
                     target="_blank"
@@ -89,8 +99,8 @@ function Contact() {
                   </a>
                 </div>
               </div>
-              <div className="col contact-col animate__animated animate__slideInRight">
-                <div className="instagram-wrapper">
+              <div className="col mb-5 contact-col animate__animated animate__slideInRight">
+                <div className="instagram-wrapper mb-5">
                   <h3>
                     <AiFillInstagram />
                     &nbsp;&nbsp;Instagram

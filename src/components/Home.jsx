@@ -45,7 +45,7 @@ function Home() {
             <br />
             <span className="name-hover">Dwitya</span>
           </h2>
-          <h3 className="mb-5 fw-light bg-secondary rounded px-3 fw-bold py-3">
+          <h3 className="mb-1 fw-light bg-secondary rounded px-2 fw-bold py-2">
             A Computer Enthusiast
           </h3>
           <hr />

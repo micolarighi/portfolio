@@ -17,7 +17,7 @@ function Projects() {
         <div className="project-left animate__animated animate__zoomIn mb-5">
           <h3>Project</h3>
           <h4>
-            ───&nbsp;&nbsp;Page <strong>04</strong>
+            ───&nbsp;&nbsp;Page <strong>03</strong>
           </h4>
           <div className="row">
             <p className="fs-4">
