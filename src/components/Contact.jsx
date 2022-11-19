@@ -41,7 +41,7 @@ function Contact() {
                 Computer Enthusiast.
               </strong>{" "}
               <br /> <hr />
-              Interested to working with me? Let's get in.
+              Interested to working with me or want to know better about me? Check my socials here.
             </p>
           </div>
         </div>

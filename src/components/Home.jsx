@@ -48,7 +48,6 @@ function Home() {
           <h3 className="mb-1 fw-light bg-secondary rounded px-2 fw-bold py-2">
             A Computer Enthusiast
           </h3>
-          <hr />
 
           <div className="row">
             <div className="col">
