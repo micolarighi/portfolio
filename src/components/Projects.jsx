@@ -124,50 +124,7 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-12 col-lg-12 project-col mt-3 ">
-              <div className="project-card px-2 py-4 row">
-                <div className="col-12 col-lg-5">
-                  <img
-                    className="img-fluid"
-                    src={Project2}
-                    alt="Project 1"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="col">
-                  <div className="project-content">
-                    <h3>Covid 19 Tracker - MiCovid-19</h3>
-                    <p>
-                      A Web App that shows the latest updates on the COVID-19
-                      pandemic. It uses the latest data from the open API.
-                    </p>
-                    <a
-                      className="btn-website"
-                      href="http://micovid-19.vercel.app/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <AiOutlineLink className="project-icon" />
-                      &nbsp;&nbsp;Website
-                    </a>
-                    <a
-                      className="btn-github"
-                      href="https://github.com/micolarighi/micovid-19"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <AiFillGithub className="project-icon" />
-                      &nbsp;&nbsp;GitHub
-                    </a>
-                    <div className=" mt-3">
-                      <span id="tech-stack">React</span>
-                      <span id="tech-stack">Open API</span>
-                      <span id="tech-stack">Back-end</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
             <div className="col-12 col-md-12 col-lg-12 project-col mt-3 ">
               <div className="project-card px-2 py-4 row">
                 <div className="col-12 col-lg-5">
