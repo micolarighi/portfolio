@@ -53,14 +53,12 @@
 }
 
 .certificates-wrapper {
-  height: 390px;
+  height: 300px;
   margin-top: 8px;
-  overflow-x: hidden;
   overflow-y: scroll;
 }
 
 .certificates-ratio img {
-  width: 285px;
   border-radius: 0.25rem;
   cursor: pointer;
 }
@@ -75,9 +73,7 @@
     padding: 0;
   }
 
-  .certificates-ratio img {
-    width: 200px;
-  }
+
 
   .about-left h3 {
     font-size: 40px;
@@ -103,23 +99,4 @@
   }
 }
 
-@media (max-width: 768px) {
-  .certificates-ratio img {
-    width: 140px;
-  }
-}
 
-@media (max-width: 576px) {
-  .col.certificates-ratio {
-    text-align: center;
-    padding: 0;
-  }
-
-  .certificates-ratio.gap-image img {
-    margin-top: 1.5rem;
-  }
-
-  .certificates-ratio img {
-    width: 300px;
-  }
-}

@@ -136,20 +136,20 @@ function About() {
               <h5 className="text-secondary">Do you have any certification?</h5>
               <h3 className="">Yes, here you go.</h3>
             </div>
-            <div className="certificates-wrapper mt-3">
-              <div className="row my-2">
-                <div className="col certificates-ratio">
+            <div className="certificates-wrapper">
+              <div className="row ">
+                <div className="col-12 col-lg-6 certificates-ratio mt-4">
                   <img
-                    className="shadow"
+                    className="shadow img-fluid"
                     loading="lazy"
                     src={Certificate1}
                     alt="Certificate 1"
                     onClick={() => openLightboxOnSlide(1)}
                   />
                 </div>
-                <div className="col certificates-ratio gap-image">
+                <div className="col-12 col-lg-6 certificates-ratio gap-image mt-4">
                   <img
-                    className="shadow"
+                    className="shadow img-fluid"
                     loading="lazy"
                     src={Certificate2}
                     alt="Certificate 2"
@@ -157,22 +157,22 @@ function About() {
                   />
                 </div>{" "}
               </div>{" "}
-              <div className="row my-4">
+              <div className="row">
                 {" "}
-                <div className="col certificates-ratio">
+                <div className="col-12 col-lg-6 certificates-ratio mt-4">
                   {" "}
                   <img
-                    className="shadow"
+                    className="shadow img-fluid"
                     loading="lazy"
                     src={Certificate4}
                     alt="Certificate 4"
                     onClick={() => openLightboxOnSlide(4)}
                   />{" "}
                 </div>{" "}
-                <div className="col certificates-ratio gap-image">
+                <div className="col-12 col-lg-6 certificates-ratio gap-image mt-4">
                   {" "}
                   <img
-                    className="shadow"
+                    className="shadow img-fluid"
                     loading="lazy"
                     src={Certificate3}
                     alt="Certificate 3"

@@ -124,6 +124,50 @@ function Projects() {
                 </div>
               </div>
             </div>
+            <div className="col-12 col-md-12 col-lg-12 project-col mt-3 ">
+              <div className="project-card px-2 py-4 row">
+                <div className="col-12 col-lg-5">
+                  <img
+                    className="img-fluid"
+                    src={Project3}
+                    alt="Project 1"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="col">
+                  <div className="project-content">
+                    <h3>Linkhub - Micola Arighi</h3>
+                    <p>
+                      A Custom Linktree Website made with modern user interface and animation.
+                    </p>
+                    <a
+                      className="btn-website"
+                      href="https://linkhub-micolarighi.netlify.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <AiOutlineLink className="project-icon" />
+                      &nbsp;&nbsp;Website
+                    </a>
+                    <a
+                      className="btn-github"
+                      href="https://github.com/micolarighi/linkhub-micolarighi"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <AiFillGithub className="project-icon" />
+                      &nbsp;&nbsp;GitHub
+                    </a>
+                    <div className=" mt-3">
+                      <span id="tech-stack">React</span>
+                      <span id="tech-stack">Open API</span>
+                      <span id="tech-stack">Back-end</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </Container>
