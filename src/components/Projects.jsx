@@ -13,11 +13,11 @@ function Projects() {
       <Helmet>
         <title>Micola Arighi - Skills</title>
       </Helmet>
-      <Container fluid className="project-wrapper">
-        <div className="project-left animate__animated animate__zoomIn mb-5">
+      <Container fluid className="project-wrapper mb-5 pb-5">
+        <div className="project-left animate__animated animate__zoomIn mb-5 pb-5">
           <h3>Project</h3>
           <h4>
-            ───&nbsp;&nbsp;Page <strong>04</strong>
+            ───&nbsp;&nbsp;Page <strong>03</strong>
           </h4>
           <div className="row">
             <p className="fs-4">
@@ -26,7 +26,7 @@ function Projects() {
                 Computer Enthusiast.
               </strong>{" "}
               <br /> <hr />
-              Take a look at things i've made so far.
+              Take a quick look at things i've made so far. All the project listed here, is a project that i publish publicly.
             </p>
           </div>
         </div>
@@ -99,7 +99,7 @@ function Projects() {
                     </p>
                     <a
                       className="btn-website"
-                      href="https://midolist.netlify.app/"
+                      href="http://micovid-19.vercel.app/"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -108,7 +108,51 @@ function Projects() {
                     </a>
                     <a
                       className="btn-github"
-                      href="https://github.com/micolarighi/mido-app"
+                      href="https://github.com/micolarighi/micovid-19"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <AiFillGithub className="project-icon" />
+                      &nbsp;&nbsp;GitHub
+                    </a>
+                    <div className=" mt-3">
+                      <span id="tech-stack">React</span>
+                      <span id="tech-stack">Open API</span>
+                      <span id="tech-stack">Back-end</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-12 col-lg-12 project-col mt-3 ">
+              <div className="project-card px-2 py-4 row">
+                <div className="col-12 col-lg-5">
+                  <img
+                    className="img-fluid"
+                    src={Project2}
+                    alt="Project 1"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="col">
+                  <div className="project-content">
+                    <h3>Covid 19 Tracker - MiCovid-19</h3>
+                    <p>
+                      A Web App that shows the latest updates on the COVID-19
+                      pandemic. It uses the latest data from the open API.
+                    </p>
+                    <a
+                      className="btn-website"
+                      href="http://micovid-19.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <AiOutlineLink className="project-icon" />
+                      &nbsp;&nbsp;Website
+                    </a>
+                    <a
+                      className="btn-github"
+                      href="https://github.com/micolarighi/micovid-19"
                       target="_blank"
                       rel="noreferrer"
                     >

@@ -1,7 +1,7 @@
 .contact-wrapper {
   display: flex;
-  justify-content: space-between;
-  margin-top: 10%;
+  padding: 0 7% !important;
+  margin-top: 10% !important;
 }
 
 .contact-left {
@@ -11,15 +11,15 @@
 }
 
 .contact-left {
-  width: 300px;
+  width: 35%;
+  color: white;
+  position: fixed;
 }
 
 .contact-right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 800px;
+  width: 70%;
+  text-align: start;
+  margin-left: 44%;
 }
 
 .contact-left h3,
@@ -28,14 +28,14 @@
 }
 
 .contact-left h3 {
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 100px;
   margin: 0px;
 }
 
 .contact-left h4 {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
 }
 
@@ -43,7 +43,7 @@
 .linkedin-wrapper,
 .github-wrapper,
 .instagram-wrapper {
-  width: 350px;
+  width: 600px;
   margin: 8px 0 8px 0;
   padding: 18px;
   background-color: var(--third-color);
@@ -68,7 +68,7 @@
   cursor: default;
 }
 
-a.btn-direct {
+a.btn-direct, button.btn-copy {
   display: inline-block;
   font-family: 'Manrope', sans-serif;
   font-weight: 500;
@@ -82,27 +82,11 @@ a.btn-direct {
   color: white;
 }
 
-a.btn-direct:hover {
+a.btn-direct:hover, button.btn-copy{
   color: var(--fourth-color);
 }
 
-button.btn-copy {
-  display: inline-block;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  text-decoration: none;
-  background-color: #D8D2CB;
-  padding: 5px 10px 5px 10px;
-  margin: 6px 0 3px 0;
-  border-radius: .3rem;
-  color: rgb(0, 0, 0);
-}
 
-button.btn-copy:hover {
-  background-color: #000;
-  color: white;
-}
 
 .col.contact-col {
   display: flex;
@@ -116,11 +100,14 @@ button.btn-copy:hover {
 }
 
 
-
-
 @media (max-width: 992px) {
   .contact-wrapper {
-    margin-top: 10% !important;
+    margin-top: 30% !important;
+    text-align: center;
+    display: block;
+    align-items: center;
+    height: 50vh;
+    padding: 0;
   }
 
   .contact-left h3 {
@@ -156,7 +143,20 @@ button.btn-copy:hover {
   button.btn-copy {
     font-size: 12px;
   }
+
+  .contact-left {
+    width: 100%;
+    color: white;
+    position: relative;
+  }
+
+  .contact-right {
+    width: 100% !important;
+    margin-left: 0;
+  }
 }
+
+
 
 @media (max-width: 768px) {
   .contact-left {

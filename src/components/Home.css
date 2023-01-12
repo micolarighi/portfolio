@@ -25,15 +25,17 @@
 .home-left h2 {
   font-family: "Archivo", sans-serif;
   font-weight: 800;
-  font-size: 100px;
-  line-height: 110px;
+  font-size: 72px;
+  line-height: 70px;
   cursor: default;
+  text-align: center;
 }
 
 .home-left h3 {
   font-family: "Manrope", sans-serif;
   font-weight: 200;
-  font-size: 30px;
+  font-size: 18px;
+  text-align: center;
   cursor: default;
 }
 

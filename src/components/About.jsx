@@ -52,7 +52,7 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="about-right mt-3 animate__animated animate__fadeIn animate__slower ">
+          <div className="about-right mt-3 animate__animated animate__fadeIn animate__slower ">
           <div className="row">
             <div className="col-2">
               <h4 className="bg-secondary rounded">01</h4>
@@ -60,8 +60,9 @@ function About() {
             <div className="col">
               <h5 className="text-secondary">What's your name?</h5>
               <h3>Micola Arighi Dwitya</h3>
-            </div>
+            </div> 
           </div>
+          
           <hr />
           <div className="row mt-4">
             <div className="col-2">
