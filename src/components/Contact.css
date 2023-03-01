@@ -78,12 +78,14 @@ a.btn-direct, button.btn-copy {
   padding: 5px 10px 5px 10px;
   margin: 6px 0 3px 0;
   border-radius: .3rem;
-  border: 2px solid transparent;
+border: 2px solid transparent;
   color: white;
+  transition: all 0.3 ease;
 }
 
-a.btn-direct:hover, button.btn-copy{
-  color: var(--fourth-color);
+a.btn-direct:hover, button.btn-copy:hover{
+  color: black;
+  background-color: rgb(163, 163, 163);
 }
 
 

@@ -92,7 +92,6 @@ i#normal {
 }
 
 .menu-list a:hover {
-  font-style: italic;
   color: var(--second-color);
 }
 

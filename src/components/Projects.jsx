@@ -3,6 +3,8 @@ import { AiOutlineLink, AiFillGithub } from "react-icons/ai";
 import Project1 from "../assets/img/Project1.png";
 import Project2 from "../assets/img/Project2.png";
 import Project3 from "../assets/img/Project3.png";
+import Project4 from "../assets/img/Project4.png";
+import Project5 from "../assets/img/Project5.png";
 
 import Helmet from "react-helmet";
 import "./Projects.css";
@@ -120,6 +122,110 @@ function Projects() {
                       <span id="tech-stack">React</span>
                       <span id="tech-stack">Open API</span>
                       <span id="tech-stack">Back-end</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-12 col-lg-12 project-col mt-3 ">
+              <div className="project-card px-2 py-4 row">
+                <div className="col-12 col-lg-5">
+                  <img
+                    className="img-fluid"
+                    src={Project4}
+                    alt="Project 1"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="col">
+                  <div className="project-content">
+                    <h3>Agency Profile With CMS</h3>
+                    <p>
+                      Trusted to make An Agency Profile that have Content Management System in My College.
+                    </p>
+                    <a
+                      className="btn-website"
+                      href="https://himatekkom-ug.site/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <AiOutlineLink className="project-icon" />
+                      &nbsp;&nbsp;Website
+                    </a>
+                    <div className=" mt-3">
+                      <span id="tech-stack">PHP</span>
+                      <span id="tech-stack">CMS</span>
+                      <span id="tech-stack">Back-end</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="col-12 col-md-12 col-lg-12 project-col mt-3 ">
+              <div className="project-card px-2 py-4 row">
+                <div className="col-12 col-lg-5">
+                  <img
+                    className="img-fluid"
+                    src={Project2}
+                    alt="Project 1"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="col">
+                  <div className="project-content">
+                    <h3>My Company Profile</h3>
+                    <p>
+                      A Company Profile of my own company as a CTO.
+                    </p>
+                    <a
+                      className="btn-website"
+                      href="https://hello-koding.netlify.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <AiOutlineLink className="project-icon" />
+                      &nbsp;&nbsp;Website
+                    </a>
+
+                    <div className=" mt-3">
+                      <span id="tech-stack">Company Profile</span>
+                      <span id="tech-stack">Front-end</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-md-12 col-lg-12 project-col mt-3 ">
+              <div className="project-card px-2 py-4 row">
+                <div className="col-12 col-lg-5">
+                  <img
+                    className="img-fluid"
+                    src={Project5}
+                    alt="Project 1"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="col">
+                  <div className="project-content">
+                    <h3>Online Course Platform</h3>
+                    <p>
+                      As The front-end of an online course platform - ed.versity.
+                    </p>
+                    <a
+                      className="btn-secondary btn"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      &nbsp;&nbsp;Website Closed
+                    </a>
+
+                    <div className=" mt-3">
+                      <span id="tech-stack">Online Course</span>
+                      <span id="tech-stack">Front-end</span>
                     </div>
                   </div>
                 </div>
