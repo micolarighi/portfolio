@@ -1,7 +1,8 @@
 .home-wrapper {
   display: flex;
   padding: 0 5% !important;
-  margin-top: 10%;
+  align-items: center;
+  height: 100vh;
 }
 
 .home-left {
@@ -12,8 +13,8 @@
 
 .home-right {
   width: 70%;
-  text-align: start;
   margin-left: 40%;
+  padding-top: 100vh;
 }
 
 .home-left,
@@ -80,7 +81,6 @@
     height: 60vh;
     padding: 0;
     align-items: center;
-    text-align: center;
   }
 
   .home-left,
@@ -88,6 +88,7 @@
     padding-left: 24px;
     padding-right: 24px;
     width: 100%;
+    padding-top: 0;
   }
 
   .home-left h2 {

@@ -1,7 +1,7 @@
 .contact-wrapper {
   display: flex;
   padding: 0 7% !important;
-  margin-top: 10% !important;
+  margin-top: 20vh;
 }
 
 .contact-left {
@@ -84,7 +84,7 @@ border: 2px solid transparent;
 }
 
 a.btn-direct:hover, button.btn-copy:hover{
-  color: black;
+  color : white;
   background-color: rgb(163, 163, 163);
 }
 

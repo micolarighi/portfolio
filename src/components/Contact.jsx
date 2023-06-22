@@ -29,24 +29,14 @@ function Contact() {
         <title>Micola Arighi - Contact</title>
       </Helmet>
       <Container fluid className="contact-wrapper">
-        <div className="contact-left text-start animate__animated animate__zoomIn">
-        <h3>Contact</h3>
-          <h4>
-            ───&nbsp;&nbsp;Page <strong>04</strong>
-          </h4>
-          <div className="row">
-            <p className="fs-4">
-              A{" "}
-              <strong className="rounded px-2 bg-secondary">
-                Computer Enthusiast.
-              </strong>{" "}
-              <br /> <hr />
-              Interested to working with me or want to know better about me? Check my socials here.
-            </p>
-          </div>
-        </div>
-        <div className="contact-right">
           <div className="contact-container">
+            <div className="text-center animate__animated animate__zoomIn">
+              <div className="row">
+                <p className="fs-4">
+                  Interested working with me? <br /> <span className="fw-bold">Check my socials here.</span>
+                </p>
+              </div>
+            </div>
             <div className="row">
               <div className="col contact-col animate__animated animate__slideInLeft">
                 <div className="email-wrapper">
@@ -99,27 +89,8 @@ function Contact() {
                   </a>
                 </div>
               </div>
-              <div className="col mb-5 contact-col animate__animated animate__slideInRight">
-                <div className="instagram-wrapper mb-5">
-                  <h3>
-                    <AiFillInstagram />
-                    &nbsp;&nbsp;Instagram
-                  </h3>
-                  <p>@micolarighi</p>
-                  <a
-                    href="https://www.instagram.com/micolarighi/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn-direct"
-                  >
-                    Visit&nbsp;&nbsp;
-                    <AiOutlineArrowRight />
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
-        </div>
       </Container>
     </>
   );

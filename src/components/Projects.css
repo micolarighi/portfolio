@@ -1,13 +1,12 @@
 .project-wrapper {
   display: flex;
-  padding: 0 7% !important;
-  margin-top: 10% !important;
+  padding: 10% 7% !important;
 }
 
 .projects-title h3 {
   font-family: "Archivo", sans-serif;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 100px;
   margin: 0px;
 }
 
@@ -18,7 +17,6 @@
 
 .project-left {
   position: fixed;
-  width: 35%;
   color: #fff;
 }
 
@@ -40,9 +38,7 @@
 }
 
 .project-right {
-  width: 70%;
   text-align: start;
-  margin-left: 43%;
 }
 
 .projects-wrapper {
@@ -67,7 +63,11 @@
 }
 
 .project-card .project-content {
-  padding: 0 16px 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px;
+  height: 100%;
 }
 
 .project-card .project-content h3 {
@@ -79,24 +79,27 @@
 
 .project-card .project-content p {
   font-family: "Manrope", sans-serif;
+  font-size: 20px;
   cursor: default;
 }
 
-a.btn-website,
-a.btn-github {
+a.btn-website
+{
   font-family: "Manrope", sans-serif;
   text-decoration: none;
+  background-color: black !important;
   color: #fff;
   padding: 6px 8px 6px 8px;
   border-radius: 0.3rem;
-  font-size: 14px;
+  font-size: 20px;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
-a.btn-website:hover,
-a.btn-github:hover {
+a.btn-website:hover
+{
   color: black;
-  background-color: rgb(185, 185, 185);
+  background-color: rgb(185, 185, 185) !important;
 }
 
 a.btn-website {
@@ -135,7 +138,8 @@ span#tech-stack {
     display: block;
     align-items: center;
     height: 50vh;
-    padding: 0;
+    padding-top: 0 !important;
+    padding-bottom: 10% !important;
   }
 
   .projects-container {

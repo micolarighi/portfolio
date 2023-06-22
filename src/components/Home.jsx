@@ -32,7 +32,7 @@ function Home() {
       <Helmet>
         <title>Micola Arighi Dwitya</title>
       </Helmet>
-      <Container fluid className="home-wrapper">
+      <div className="home-wrapper">
         <div className="home-left animate__animated animate__fadeInLeft mb-5 mt-3">
           <h3>
             Hola
@@ -45,9 +45,6 @@ function Home() {
             <br />
             <span className="name-hover">Dwitya</span>
           </h2>
-          <h3 className="mb-1 fw-light bg-secondary rounded px-2 fw-bold py-2">
-            A Computer Enthusiast
-          </h3>
 
           <div className="row">
             <div className="col">
@@ -133,10 +130,6 @@ function Home() {
               </h1>
               <div className="ms-5 mt-2">
                 <h5>Pinned Projects</h5>
-                <p className="text-secondary">
-                  {" "}
-                  MidoList - A Simple To-Do List Web App using React + Redux
-                </p>
                 <a
                   target={"_blank"}
                   href="https://midolist.netlify.app"
@@ -156,9 +149,6 @@ function Home() {
               </h1>
               <div className="ms-5 mt-2">
                 <h5>Youtube</h5>
-                <p className="text-secondary">
-                  Programming Tips & Trick and Tutorial
-                </p>
                 <a
                   target={"_black"}
                   href="https://www.youtube.com/channel/UCV4p9jOV1IzGim2GbexAFSQ"
@@ -215,7 +205,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </Container>
+      </div>
       {/* <a href="skills" className="btn btn-outline-light w-100 mt-2">Skills</a>
       <a href="portfolio" className="btn btn-outline-light w-100 mt-2">Portfolio</a>
       <a href="contact" className="btn btn-outline-light w-100 mt-2">Contact</a> */}
