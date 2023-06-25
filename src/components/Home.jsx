@@ -47,7 +47,7 @@ function Home() {
           </h2>
 
           <div className="row">
-            <div className="col">
+            {/* <div className="col">
               <Link
                 className="btn-download text-center rounded-3"
                 to={CVDoc}
@@ -58,11 +58,11 @@ function Home() {
                 <AiFillFileText className="mt-1" />
                 &nbsp;&nbsp;Download CV
               </Link>
-            </div>
-            <div className="col">
-              <a href="contact" className=" btn-download text-center rounded-3">
-                {" "}
-                <AiFillMessage className="mt-1" /> &nbsp; Get in Touch&nbsp;
+            </div> */}
+            <div className="col mx-5">
+              <a href="contact" className="btn-download text-center rounded-3">
+                <AiFillMessage className="mt-1 text-center" /> &nbsp; &nbsp;
+                Get In Touch
               </a>
             </div>
           </div>
@@ -171,7 +171,7 @@ function Home() {
             <div className="card-wrapper border rounded px-4 py-3">
               <div className="row">
                 <div className="d-flex flex-row justify-content-center align-items-center">
-                  <h5>Front-End Web Developer</h5>
+                  <h6>Front-End Web Developer</h6>
                   <i className="devicon-html5-plain colored" title="HTML"></i>
                   <i className="devicon-css3-plain colored" title="CSS"></i>
                   <i
@@ -187,7 +187,7 @@ function Home() {
             >
               <div className="row">
                 <div className="d-flex flex-row justify-content-center align-items-center">
-                  <h5>Back-End Web Developer</h5>
+                  <h6>Back-End Web Developer</h6>
                   <i
                     className="devicon-nodejs-plain colored"
                     title="Node JS"
