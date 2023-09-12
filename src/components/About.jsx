@@ -9,6 +9,22 @@ import { Container } from "react-bootstrap";
 import { useState } from "react";
 import "./About.css";
 
+export function Experience (props) {
+  return (
+  <>
+  <li className="list-group-item d-flex justify-content-between align-items-start bg-dark">
+    <div className="ms-2 me-auto">
+      <div className="fw-bold">{props.title}</div>
+      <p className="lh-1">{props.sub}</p>
+    </div>
+    <span className="badge bg-secondary rounded-pill">
+      {props.year}
+    </span>
+  </li>
+  </>
+)
+}
+
 function About() {
   const [lightboxController, setLightboxController] = useState({
     toggler: false,
@@ -94,7 +110,7 @@ function About() {
                       className="devicon-npm-original-wordmark colored"
                       title="NPM"
                     ></i>
-                    <i className="devicon-git-plain colored" title="Git"></i>
+                    <i className="devicon-tailwindcss-plain colored" title="Tailwind"></i>
                     <i
                       className="devicon-github-original colored text-white"
                       title="GitHub"
@@ -108,8 +124,8 @@ function About() {
                 <div className="row my-4 animate__animated animate__flipInX animate_slow">
                   <div className="col">
                     <i
-                      className="devicon-bootstrap-plain colored"
-                      title="Bootstrap"
+                      className="devicon-svelte-plain colored"
+                      title="Svelte"
                     ></i>
                     <i
                       className="devicon-nodejs-plain colored"
@@ -203,48 +219,20 @@ function About() {
             </div>
           </div>
           <hr />
-          <div className="row mt-4">
+          <div className="row mt-4 mb-5">
             {" "}
             <div className="col-2">
               {" "}
               <h4 className="bg-secondary rounded">05</h4>
             </div>
-            <div className="col">
+            <div className="col mb-5">
               <h5 className="text-secondary">What's your experience?</h5>
               <h3 className="mb-3">Here's my experience in Coding Industry.</h3>
               <ol className="list-group ">
-                <li className="list-group-item d-flex justify-content-between align-items-start bg-dark">
-                  <div className="ms-2 me-auto">
-                    <div className="fw-bold">Hello Koding</div>
-                    <p className="lh-1">Co-Founder</p>
-                  </div>
-                  <span className="badge bg-secondary rounded-pill">
-                    1 Year
-                  </span>
-                </li>
-                <li className="list-group-item d-flex justify-content-between align-items-start bg-dark">
-                  <div className="ms-2 me-auto">
-                    <div className="fw-bold">Ed.VERSITY</div>
-                    <p className="lh-1">Head of I.T Division</p>
-                  </div>
-                  <span className="badge bg-secondary  rounded-pill">
-                    6 Months
-                  </span>
-                </li>
-                <li
-                  className="list-group-item d-flex justify-content-between align-items-start bg-dark"
-                  style={{ marginBottom: "100px" }}
-                >
-                  <div className="ms-2 me-auto">
-                    <div className="fw-bold">Mentoring</div>
-                    <p className="lh-1">
-                      Webinar Mentoring and A Youtube Mentor Content Creator
-                    </p>
-                  </div>
-                  <span className="badge bg-secondary rounded-pill">
-                    2 Years
-                  </span>
-                </li>
+                <Experience title={"Hello Koding"} sub={"Founder & CTO of Hello Koding"} year={"2021-2023"} />
+                <Experience title={"Ed.Versity"} sub={"Head of I.T Division"} year={"2021-2022"} />
+                <Experience title={"Mentoring"} sub={"Webinar Mentoring at Hello Koding and Campus Event"} year={"2020-2022"} />
+                <Experience title={"Content Creator"} sub={"Making content about Programming & Technology on YouTube"} year={"2022-Present"} />
               </ol>
             </div>
           </div>

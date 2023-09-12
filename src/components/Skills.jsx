@@ -35,7 +35,7 @@ function Skills() {
               </div>
               <div className="row my-4 animate__animated animate__flipInX animate_slow">
                 <div className="col">
-                  <i className="devicon-bootstrap-plain colored" title="Bootstrap"></i>
+                  <i className="devicon-tailwind-plain colored" title="tailwind"></i>
                   <i className="devicon-react-original colored" title="React JS"></i>
                 </div>
               </div>

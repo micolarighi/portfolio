@@ -4,6 +4,7 @@ import {
   AiFillLinkedin,
   AiFillInstagram,
   AiOutlineArrowRight,
+  AiFillYoutube,
 } from "react-icons/ai";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Container } from "react-bootstrap";
@@ -11,6 +12,30 @@ import { FiCopy } from "react-icons/fi";
 import { useState } from "react";
 import Helmet from "react-helmet";
 import "./Contact.css";
+
+export function Socials (props) {
+  return (
+    <>
+    <div className="col contact-col animate__animated animate__slideInLeft">
+      <div className="github-wrapper text-center">
+        <h3>
+          {props.icon}  
+          &nbsp;&nbsp;{props.title}
+        </h3>
+        <a
+          href={props.href}
+          target="_blank"
+          rel="noreferrer"
+          className="btn-direct w-100"
+        >
+          Visit&nbsp;&nbsp;
+          <AiOutlineArrowRight />
+        </a>
+      </div>
+    </div>
+    </>
+  )
+}
 
 function Contact() {
   const [alreadyCopy, setAlreadyCopy] = useState("Copy");
@@ -39,56 +64,23 @@ function Contact() {
             </div>
             <div className="row">
               <div className="col contact-col animate__animated animate__slideInLeft">
-                <div className="email-wrapper">
+                <div className="email-wrapper text-center">
                   <h3>
                     <AiOutlineMail />
                     &nbsp;&nbsp;Email
                   </h3>
-                  <p>micola.arighi.dwitya@gmail.com</p>
                   <CopyToClipboard text="micola.arighi.dwitya@gmail.com">
-                    <button className="btn-copy text-white" onClick={actionCopy}>
+                    <button className="btn-copy text-white w-100" onClick={actionCopy}>
                       {alreadyCopy}&nbsp;&nbsp;
                       <FiCopy />
                     </button>
                   </CopyToClipboard>
                 </div>
               </div>
-              <div className="col contact-col animate__animated animate__slideInRight">
-                <div className="linkedin-wrapper">
-                  <h3>
-                    <AiFillLinkedin />
-                    &nbsp;&nbsp;Linkedin
-                  </h3>
-                  <p>Micola Arighi Dwitya</p>
-                  <a
-                    href="https://www.linkedin.com/in/micola-arighi/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn-direct"
-                  >
-                    Visit&nbsp;&nbsp;
-                    <AiOutlineArrowRight />
-                  </a>
-                </div>
-              </div>
-              <div className="col contact-col animate__animated animate__slideInLeft">
-                <div className="github-wrapper">
-                  <h3>
-                    <AiFillGithub />
-                    &nbsp;&nbsp;GitHub
-                  </h3>
-                  <p>micolarighi</p>
-                  <a
-                    href="https://github.com/micolarighi"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn-direct"
-                  >
-                    Visit&nbsp;&nbsp;
-                    <AiOutlineArrowRight />
-                  </a>
-                </div>
-              </div>
+              
+              <Socials icon={<AiFillGithub/>} title={"GitHub"} href={"https://github.com/micolarighi"}/>
+              <Socials icon={<AiFillYoutube/>} title={"YouTube"}  href={"https://www.youtube.com/channel/UCV4p9jOV1IzGim2GbexAFSQ"}/>
+              
             </div>
           </div>
       </Container>

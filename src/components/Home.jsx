@@ -73,8 +73,6 @@ function Home() {
               <img
                 className="home-image rounded-3 shadow img-fluid mt-3"
                 src={image}
-                onMouseEnter={setAvatarReal}
-                onMouseLeave={setAvatarAnimation}
                 alt="Avatar"
               />
             </div>
@@ -123,39 +121,21 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="row mt-4">
-            <div className="card-wrapper border rounded px-4 py-3 mt-3">
-              <h1>
-                <AiFillProject />
-              </h1>
-              <div className="ms-5 mt-2">
-                <h5>Pinned Projects</h5>
-                <a
-                  target={"_blank"}
-                  href="https://midolist.netlify.app"
-                  className="btn btn-dark"
-                  rel="noreferrer"
-                >
-                  <AiFillRightSquare />
-                  &nbsp;Open Site &nbsp;
-                </a>
-              </div>
-            </div>
-          </div>
+          
           <div className="row mt-4">
             <div className="card-wrapper border rounded px-4 py-3">
               <h1>
                 <AiFillYoutube />
               </h1>
               <div className="ms-5 mt-2">
-                <h5>Youtube</h5>
+                <h5>My Youtube Channel</h5>
                 <a
                   target={"_black"}
                   href="https://www.youtube.com/channel/UCV4p9jOV1IzGim2GbexAFSQ"
-                  className="btn btn-dark"
+                  className="btn btn-dark w-100"
                 >
                   <AiFillRightSquare />
-                  &nbsp;Open Site &nbsp;
+                  &nbsp;Visit &nbsp;
                 </a>
               </div>
             </div>
@@ -174,6 +154,7 @@ function Home() {
                   <h6>Front-End Web Developer</h6>
                   <i className="devicon-html5-plain colored" title="HTML"></i>
                   <i className="devicon-css3-plain colored" title="CSS"></i>
+                  <i className="devicon-svelte-plain colored" title="SVELTE"></i>
                   <i
                     className="devicon-react-original colored"
                     title="React JS"
@@ -196,6 +177,7 @@ function Home() {
                     className="devicon-express-original colored text-light"
                     title="Express JS"
                   ></i>
+
                   <i
                     className="devicon-mongodb-plain colored"
                     title="Mongo DB"

@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 import "./Footer.css";
 
 function Footer() {
@@ -9,6 +9,9 @@ function Footer() {
                     <p>Micola Arighi Dwitya</p>
                 </div>
                 <div className="foot-right d-flex">
+                    <a href="https://www.youtube.com/channel/UCV4p9jOV1IzGim2GbexAFSQ" target="_blank" rel="noreferrer">
+                        <AiFillYoutube className="foot-icon"/>&nbsp;&nbsp;YouTube
+                    </a>
                     <a href="https://github.com/micolarighi" target="_blank" rel="noreferrer">
                         <AiFillGithub className="foot-icon" />&nbsp;&nbsp;GitHub
                     </a>
