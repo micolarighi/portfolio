@@ -94,7 +94,7 @@ function Home() {
               </div>
               <div className="row mt-2">
                 <a
-                  href="project"
+                  href="projects"
                   className="btn btn-outline-light w-100 mt-1 fs-4"
                 >
                   Project
@@ -153,7 +153,6 @@ function Home() {
                 <div className="d-flex flex-row justify-content-center align-items-center">
                   <h6>Front-End Web Developer</h6>
                   <i className="devicon-html5-plain colored" title="HTML"></i>
-                  <i className="devicon-css3-plain colored" title="CSS"></i>
                   <i className="devicon-svelte-plain colored" title="SVELTE"></i>
                   <i
                     className="devicon-react-original colored"
