@@ -61,10 +61,8 @@ function About() {
                 Computer Enthusiast.
               </strong>{" "}
               <br /> <hr />
-              Every computer related make me excited, because unlike any other
-              things in this world computer is probably the only one thing that
-              I have no idea how it actually work, since I can't see how it
-              works physically.
+              Computer have always interested me, because I can't see how it
+              works physically and that made me have to figure things out.
             </p>
           </div>
         </div>
