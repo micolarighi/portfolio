@@ -68,19 +68,21 @@ function Projects() {
       </Helmet>
       <Container fluid className="project-wrapper mb-5 pb-5">
           <div className="row animate__animated animate__slideInLeft">
-            <Project Image={Project1} Title={"React App - MiDo List"} Desc={"A Simple ToDo List App made with React. It uses Redux for state management and Framer Motion for animations. All the list will be stored to the local storage, so you can access them anytime."} Link={"https://midolist.netlify.app/"}  Github={"https://github.com/micolarighi/mido-app"} />
 
             <Project Image={Project2} Title={"Online Clothing Store"} Desc={"Online Clothing Store for a local brand, Wekals. "} Link="https://wekals-web.vercel.app" Github={"https://github.com/micolarighi/wekals-web"}  />
+
+            <Project Unpublished={true} Image={Project5} Title={"Online Course Platform"} Desc={"First Website that i build with a team as Front-End Developer"} Github={"https://github.com/relieyanhilman/edversity"}  />
+
+            <Project Image={Project6} Title={"VSCode Theme"} Desc={"Custom made Visual Studio Code theme. Check it out on your vscode extension, NGODING BRO"} Github={"https://github.com/micolarighi/my-vscode-theme"} Link={"https://marketplace.visualstudio.com/items?itemName=MicolaArighi.ngoding-bro"} />
+
+            <Project Image={Project1} Title={"React App - MiDo List"} Desc={"A Simple ToDo List App made with React. It uses Redux for state management and Framer Motion for animations. All the list will be stored to the local storage, so you can access them anytime."} Link={"https://midolist.netlify.app/"}  Github={"https://github.com/micolarighi/mido-app"} />
 
             <Project Image={Project3}  Title={"LinkTree Clone"} Desc={"A Clone of linktree made with vanilla html and javascript."}  Link={"https://linkhub-micolarighi.netlify.app/"} 
             Github={"https://github.com/micolarighi/micolarighi-linkhub"} 
             />
 
-            <Project Image={Project6} Title={"VSCode Theme"} Desc={"Custom made Visual Studio Code theme. Check it out on your vscode extension, NGODING BRO"} Github={"https://github.com/micolarighi/my-vscode-theme"} Link={"https://marketplace.visualstudio.com/items?itemName=MicolaArighi.ngoding-bro"} />
-
             <Project Image={Project4} Title={"Website Community Profile"} Desc={"Trusted to make A Community Profile for my Campus Community"} Unpublished={true} Github={"https://github.com/micolarighi/himatekkom"}  />
 
-            <Project Unpublished={true} Image={Project5} Title={"Online Course Platform"} Desc={"First Website that i build with a team as Front-End Developer"} Github={"https://github.com/relieyanhilman/edversity"}  />
 
         </div>
       </Container>

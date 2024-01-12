@@ -173,17 +173,6 @@ function About() {
                 </div>{" "}
               </div>{" "}
               <div className="row">
-                {" "}
-                <div className="col-12 col-lg-6 certificates-ratio mt-4">
-                  {" "}
-                  <img
-                    className="shadow img-fluid"
-                    loading="lazy"
-                    src={Certificate4}
-                    alt="Certificate 4"
-                    onClick={() => openLightboxOnSlide(4)}
-                  />{" "}
-                </div>{" "}
                 <div className="col-12 col-lg-6 certificates-ratio gap-image mt-4">
                   {" "}
                   <img
