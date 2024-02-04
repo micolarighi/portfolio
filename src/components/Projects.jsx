@@ -6,7 +6,7 @@ import Project3 from "../assets/img/Project3.png";
 import Project4 from "../assets/img/Project4.png";
 import Project5 from "../assets/img/Project5.png";
 import Project6 from "../assets/img/Project6.PNG";
-import Project7 from "../assets/img/Project7.PNG";
+import Project7 from "../assets/img/Project7.png";
 
 import Helmet from "react-helmet";
 import "./Projects.css";
