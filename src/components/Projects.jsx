@@ -7,6 +7,7 @@ import Project4 from "../assets/img/Project4.png";
 import Project5 from "../assets/img/Project5.png";
 import Project6 from "../assets/img/Project6.PNG";
 import Project7 from "../assets/img/Project7.png";
+import Project8 from "../assets/img/Project8.png"
 
 import Helmet from "react-helmet";
 import "./Projects.css";
@@ -73,6 +74,8 @@ function Projects() {
           <Project Image={Project7} Title={"Blog"} Desc={"A Blog filled with my thoughts. Specifically made to support my content creation on YouTube. "} Link="https://micolarighi-blog.vercel.app/" Github={"https://github.com/micolarighi/blog"} />
 
           <Project Image={Project2} Title={"Online Clothing Store"} Desc={"Online Clothing Store for a local brand, Wekals. "} Link="https://wekals-web.vercel.app" Github={"https://github.com/micolarighi/wekals-web"} />
+
+          <Project Image={Project8} Title={"Tours & Travel"} Desc={"A Tours & Travel Website in Indonesia"} Link="https://chindrawisata.netlify.app/" Github={"https://github.com/micolarighi/chindrawisata"} />
 
           <Project Unpublished={true} Image={Project5} Title={"Online Course Platform"} Desc={"First Website that i build with a team as Front-End Developer"} Github={"https://github.com/relieyanhilman/edversity"} />
 
