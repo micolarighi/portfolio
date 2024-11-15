@@ -69,7 +69,7 @@ function Contact() {
                     <AiOutlineMail />
                     &nbsp;&nbsp;Email
                   </h3>
-                  <CopyToClipboard text="micola.arighi.dwitya@gmail.com">
+                  <CopyToClipboard text="micolaarighi@gmail.com">
                     <button className="btn-copy text-white w-100" onClick={actionCopy}>
                       {alreadyCopy}&nbsp;&nbsp;
                       <FiCopy />
@@ -77,7 +77,7 @@ function Contact() {
                   </CopyToClipboard>
                 </div>
               </div>
-              
+              <Socials icon={<AiFillInstagram/>} title={"Instagram"} href={"https://www.instagram.com/micolarighi/"} />
               <Socials icon={<AiFillGithub/>} title={"GitHub"} href={"https://github.com/micolarighi"}/>
               <Socials icon={<AiFillYoutube/>} title={"YouTube"}  href={"https://www.youtube.com/channel/UCV4p9jOV1IzGim2GbexAFSQ"}/>
               
